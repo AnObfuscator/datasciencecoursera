@@ -1,44 +1,81 @@
 Code Book
 ========================================================
 
-Activity
+Description
+--------------------------------------------------------
+These are the descriptions of the columns in the data set outputted from run_analysis.R. This data contains the average of means and standard deviations of various accelerometer measurements for each activity and each subject. 
 
-SubjectId
+The names of the columns are from the original data set, described in the README.md. This is intended to ease traceability and reproducability.
 
-1 tBodyAcc-mean()-X
-2 tBodyAcc-mean()-Y
-3 tBodyAcc-mean()-Z
-4 tBodyAcc-std()-X
-5 tBodyAcc-std()-Y
-6 tBodyAcc-std()-Z
+The rows are unique per Activity/SubjectId combination.
 
-41 tGravityAcc-mean()-X
-42 tGravityAcc-mean()-Y
-43 tGravityAcc-mean()-Z
-44 tGravityAcc-std()-X
-45 tGravityAcc-std()-Y
-46 tGravityAcc-std()-Z
+Variable Names
+--------------------------------------------------------
+These are numbered by the column number in the outputted data set.
 
-81 tBodyAccJerk-mean()-X
-82 tBodyAccJerk-mean()-Y
-83 tBodyAccJerk-mean()-Z
-84 tBodyAccJerk-std()-X
-85 tBodyAccJerk-std()-Y
-86 tBodyAccJerk-std()-Z
+**Keys**
+1. Activity --- The activity performed by the subject.
+2. SubjectId -- the anonymous numeric ID of the subject.
 
-121 tBodyGyro-mean()-X
-122 tBodyGyro-mean()-Y
-123 tBodyGyro-mean()-Z
-124 tBodyGyro-std()-X
-125 tBodyGyro-std()-Y
-126 tBodyGyro-std()-Z
+***tBodyAcc***
+tBodyAcc is the filtered acceleration signal from the body movement. The signal was broken into X, Y, and Z axis components.
 
-161 tBodyGyroJerk-mean()-X
-162 tBodyGyroJerk-mean()-Y
-163 tBodyGyroJerk-mean()-Z
-164 tBodyGyroJerk-std()-X
-165 tBodyGyroJerk-std()-Y
-166 tBodyGyroJerk-std()-Z
+The means & standard deviations of the measurements for each X, Y, and Z component were then averaged for that particular Activity & SubjectID.
+
+3. tBodyAcc-mean()-X
+4. tBodyAcc-mean()-Y
+5. tBodyAcc-mean()-Z
+6. tBodyAcc-std()-X
+7. tBodyAcc-std()-Y
+8. tBodyAcc-std()-Z
+
+***tGravityAcc***
+tGravityAcc is the filtered acceleration signal from gravity. The signal was broken into X, Y, and Z axis components.
+
+The means & standard deviations of the measurements for each X, Y, and Z component were then averaged for that particular Activity & SubjectID.
+
+9. tGravityAcc-mean()-X
+10. tGravityAcc-mean()-Y
+11. tGravityAcc-mean()-Z
+12. tGravityAcc-std()-X
+13. tGravityAcc-std()-Y
+14. tGravityAcc-std()-Z
+
+***tBodyAccJerk***
+tBodyAccJerk is the derivative with respect to time (d/dt) of tBodyAcc.
+
+The means & standard deviations for each X, Y, and Z calculation were then averaged for that particular Activity & SubjectID.
+
+15. tBodyAccJerk-mean()-X
+16. tBodyAccJerk-mean()-Y
+17. tBodyAccJerk-mean()-Z
+18. tBodyAccJerk-std()-X
+19. tBodyAccJerk-std()-Y
+20. tBodyAccJerk-std()-Z
+
+***tBodyGyro***
+tBodyGyro is the filtered angular velocity signal. The signal was broken into X, Y, and Z axis components.
+
+The means & standard deviations of the measurements for each X, Y, and Z component were then averaged for that particular Activity & SubjectID.
+
+21. tBodyGyro-mean()-X
+22. tBodyGyro-mean()-Y
+23. tBodyGyro-mean()-Z
+24. tBodyGyro-std()-X
+25. tBodyGyro-std()-Y
+26. tBodyGyro-std()-Z
+
+***tBodyGyroJerk***
+tBodyAccJerk is the derivative with respect to time (d/dt) of tBodyGyro.
+
+The means & standard deviations for each X, Y, and Z calculation were then averaged for that particular Activity & SubjectID.
+
+22. tBodyGyroJerk-mean()-X
+23. tBodyGyroJerk-mean()-Y
+24. tBodyGyroJerk-mean()-Z
+25. tBodyGyroJerk-std()-X
+26. tBodyGyroJerk-std()-Y
+27. tBodyGyroJerk-std()-Z
 
 201 tBodyAccMag-mean()
 202 tBodyAccMag-std()
