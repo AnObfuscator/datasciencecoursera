@@ -5,8 +5,6 @@ Description
 --------------------------------------------------------
 These are the descriptions of the columns in the data set outputted from run_analysis.R. This data contains the average of means and standard deviations of various accelerometer measurements for each activity and each subject. 
 
-The names of the columns are from the original data set, described in the README.md. This is intended to ease traceability and reproducability.
-
 The rows are unique per Activity/SubjectId combination.
 
 Variable Names
@@ -15,197 +13,197 @@ The names of the variables are from the original data set, described in the READ
 
 For example:
 
-* X SomeName
+* X SomeName SomeType
 
-X is the column number, and SomeName is the variable name.
+X is the column number, SomeName is the variable name, and SomeType is the R data type.
 
 ### Activity
 Activity is the activity performed by the subject.
 
-* 1 Activity
+* 1 Activity character
 
 ### SubjectId
 SubjectId is the anonymous numeric ID of the subject
 
-* 2 SubjectId
+* 2 SubjectId numeric
 
 ### tBodyAcc
 tBodyAcc is the filtered acceleration signal from the body movement. The signal was broken into X, Y, and Z axis components.
 
 The means & standard deviations of the measurements for each X, Y, and Z component were then averaged for that particular Activity & SubjectID.
 
-* 3 tBodyAcc-mean()-X
-* 4 tBodyAcc-mean()-Y
-* 5 tBodyAcc-mean()-Z
-* 6 tBodyAcc-std()-X
-* 7 tBodyAcc-std()-Y
-* 8 tBodyAcc-std()-Z
+* 3 tBodyAcc-mean()-X numeric
+* 4 tBodyAcc-mean()-Y numeric
+* 5 tBodyAcc-mean()-Z numeric
+* 6 tBodyAcc-std()-X numeric
+* 7 tBodyAcc-std()-Y numeric
+* 8 tBodyAcc-std()-Z numeric
 
 ### tGravityAcc
 tGravityAcc is the filtered acceleration signal from gravity. The signal was broken into X, Y, and Z axis components.
 
 The means & standard deviations of the measurements for each X, Y, and Z component were then averaged for that particular Activity & SubjectID.
 
-* 9 tGravityAcc-mean()-X
-* 10 tGravityAcc-mean()-Y
-* 11 tGravityAcc-mean()-Z
-* 12 tGravityAcc-std()-X
-* 13 tGravityAcc-std()-Y
-* 14 tGravityAcc-std()-Z
+* 9  tGravityAcc-mean()-X numeric
+* 10 tGravityAcc-mean()-Y numeric
+* 11 tGravityAcc-mean()-Z numeric
+* 12 tGravityAcc-std()-X numeric
+* 13 tGravityAcc-std()-Y numeric
+* 14 tGravityAcc-std()-Z numeric
 
 ### tBodyAccJerk
 tBodyAccJerk is the derivative with respect to time (d/dt) of tBodyAcc.
 
 The means & standard deviations for each X, Y, and Z calculation were then averaged for that particular Activity & SubjectID.
 
-* 15 tBodyAccJerk-mean()-X
-* 16 tBodyAccJerk-mean()-Y
-* 17 tBodyAccJerk-mean()-Z
-* 18 tBodyAccJerk-std()-X
-* 19 tBodyAccJerk-std()-Y
-* 20 tBodyAccJerk-std()-Z
+* 15 tBodyAccJerk-mean()-X numeric
+* 16 tBodyAccJerk-mean()-Y numeric
+* 17 tBodyAccJerk-mean()-Z numeric
+* 18 tBodyAccJerk-std()-X numeric
+* 19 tBodyAccJerk-std()-Y numeric
+* 20 tBodyAccJerk-std()-Z numeric
 
 ### tBodyGyro
 tBodyGyro is the filtered angular velocity signal. The signal was broken into X, Y, and Z axis components.
 
 The means & standard deviations of the measurements for each X, Y, and Z component were then averaged for that particular Activity & SubjectID.
 
-* 21 tBodyGyro-mean()-X
-* 22 tBodyGyro-mean()-Y
-* 23 tBodyGyro-mean()-Z
-* 24 tBodyGyro-std()-X
-* 25 tBodyGyro-std()-Y
-* 26 tBodyGyro-std()-Z
+* 21 tBodyGyro-mean()-X numeric
+* 22 tBodyGyro-mean()-Y numeric
+* 23 tBodyGyro-mean()-Z numeric
+* 24 tBodyGyro-std()-X numeric
+* 25 tBodyGyro-std()-Y numeric
+* 26 tBodyGyro-std()-Z numeric
 
 ### tBodyGyroJerk
 tBodyAccJerk is the derivative with respect to time (d/dt) of tBodyGyro.
 
 The means & standard deviations for each X, Y, and Z calculation were then averaged for that particular Activity & SubjectID.
 
-* 27 tBodyGyroJerk-mean()-X
-* 28 tBodyGyroJerk-mean()-Y
-* 29 tBodyGyroJerk-mean()-Z
-* 30 tBodyGyroJerk-std()-X
-* 31 tBodyGyroJerk-std()-Y
-* 32 tBodyGyroJerk-std()-Z
+* 27 tBodyGyroJerk-mean()-X numeric
+* 28 tBodyGyroJerk-mean()-Y numeric
+* 29 tBodyGyroJerk-mean()-Z numeric
+* 30 tBodyGyroJerk-std()-X numeric
+* 31 tBodyGyroJerk-std()-Y numeric
+* 32 tBodyGyroJerk-std()-Z numeric
 
 ### tBodyAccMag
 tBodyAccMag is the magnitude of tBodyAcc-XYZ calculated using the Euclidian norm.
 
 The mean & standard deviation for each calculation were then averaged for that particular Activity & SubjectID.
 
-* 33 tBodyAccMag-mean()
-* 34 tBodyAccMag-std()
+* 33 tBodyAccMag-mean() numeric
+* 34 tBodyAccMag-std() numeric
 
 ### tGravityAccMag
 tGravityAccMag is the magnitude of tGravityAcc-XYZ calculated using the Euclidian norm.
 
 The mean & standard deviation for each calculation were then averaged for that particular Activity & SubjectID.
 
-* 35 tGravityAccMag-mean()
-* 36 tGravityAccMag-std()
+* 35 tGravityAccMag-mean() numeric
+* 36 tGravityAccMag-std() numeric
 
 ### tBodyAccJerkMag
 tBodyAccJerkMag is the magnitude of tBodyAccJerk-XYZ calculated using the Euclidian norm.
 
 The mean & standard deviation for each calculation were then averaged for that particular Activity & SubjectID.
 
-* 37 tBodyAccJerkMag-mean()
-* 38 tBodyAccJerkMag-std()
+* 37 tBodyAccJerkMag-mean() numeric
+* 38 tBodyAccJerkMag-std() numeric
 
 ### tBodyGyroMag
 tBodyGyroMag is the magnitude of tBodyGyro-XYZ calculated using the Euclidian norm.
 
 The mean & standard deviation for each calculation were then averaged for that particular Activity & SubjectID.
 
-* 39 tBodyGyroMag-mean()
-* 40 tBodyGyroMag-std()
+* 39 tBodyGyroMag-mean() numeric
+* 40 tBodyGyroMag-std() numeric
 
 ### tBodyGyroJerkMag
 tBodyGyroJerkMag is the magnitude of tBodyGyroJerk-XYZ calculated using the Euclidian norm.
 
 The mean & standard deviation for each calculation were then averaged for that particular Activity & SubjectID.
 
-* 41 tBodyGyroJerkMag-mean()
-* 42 tBodyGyroJerkMag-std()
+* 41 tBodyGyroJerkMag-mean() numeric
+* 42 tBodyGyroJerkMag-std() numeric
 
 ### fBodyAcc
 fBodyAcc is the result of applying a Fast Fourier Transform (FFT) to the tBodyAcc X, Y, and Z axis components.
 
 The means, mean frequencies, & standard deviations of each calculation were then averaged for that particular Activity & SubjectID.
 
-* 43 fBodyAcc-mean()-X
-* 44 fBodyAcc-mean()-Y
-* 45 fBodyAcc-mean()-Z
-* 46 fBodyAcc-std()-X
-* 47 fBodyAcc-std()-Y
-* 48 fBodyAcc-std()-Z
-* 49 fBodyAcc-meanFreq()-X
-* 50 fBodyAcc-meanFreq()-Y
-* 51 fBodyAcc-meanFreq()-Z
+* 43 fBodyAcc-mean()-X numeric
+* 44 fBodyAcc-mean()-Y numeric
+* 45 fBodyAcc-mean()-Z numeric
+* 46 fBodyAcc-std()-X numeric
+* 47 fBodyAcc-std()-Y numeric
+* 48 fBodyAcc-std()-Z numeric
+* 49 fBodyAcc-meanFreq()-X numeric
+* 50 fBodyAcc-meanFreq()-Y numeric
+* 51 fBodyAcc-meanFreq()-Z numeric
 
 ### fBodyAccJerk
 fBodyAccJerk is the result of applying a Fast Fourier Transform (FFT) to the tBodyAccJerk X, Y, and Z axis components.
 
 The means, mean frequencies, & standard deviations of each calculation were then averaged for that particular Activity & SubjectID.
 
-* 52 fBodyAccJerk-mean()-X
-* 53 fBodyAccJerk-mean()-Y
-* 54 fBodyAccJerk-mean()-Z
-* 55 fBodyAccJerk-std()-X
-* 56 fBodyAccJerk-std()-Y
-* 57 fBodyAccJerk-std()-Z
-* 58 fBodyAccJerk-meanFreq()-X
-* 59 fBodyAccJerk-meanFreq()-Y
-* 60 fBodyAccJerk-meanFreq()-Z
+* 52 fBodyAccJerk-mean()-X numeric
+* 53 fBodyAccJerk-mean()-Y numeric
+* 54 fBodyAccJerk-mean()-Z numeric
+* 55 fBodyAccJerk-std()-X numeric
+* 56 fBodyAccJerk-std()-Y numeric
+* 57 fBodyAccJerk-std()-Z numeric
+* 58 fBodyAccJerk-meanFreq()-X numeric
+* 59 fBodyAccJerk-meanFreq()-Y numeric
+* 60 fBodyAccJerk-meanFreq()-Z numeric
 
 ### fBodyGyro
 fBodyGyro is the result of applying a Fast Fourier Transform (FFT) to the tBodyGyro X, Y, and Z axis components.
 
 The means, mean frequencies, & standard deviations of each calculation were then averaged for that particular Activity & SubjectID.
 
-* 61 fBodyGyro-mean()-X
-* 62 fBodyGyro-mean()-Y
-* 63 fBodyGyro-mean()-Z
-* 64 fBodyGyro-std()-X
-* 65 fBodyGyro-std()-Y
-* 66 fBodyGyro-std()-Z
-* 67 fBodyGyro-meanFreq()-X
-* 68 fBodyGyro-meanFreq()-Y
-* 69 fBodyGyro-meanFreq()-Z
+* 61 fBodyGyro-mean()-X numeric
+* 62 fBodyGyro-mean()-Y numeric
+* 63 fBodyGyro-mean()-Z numeric
+* 64 fBodyGyro-std()-X numeric
+* 65 fBodyGyro-std()-Y numeric
+* 66 fBodyGyro-std()-Z numeric
+* 67 fBodyGyro-meanFreq()-X numeric
+* 68 fBodyGyro-meanFreq()-Y numeric
+* 69 fBodyGyro-meanFreq()-Z numeric
 
 ### fBodyAccMag
 fBodyAccMag is the result of applying a Fast Fourier Transform (FFT) to the tBodyAccMag calculation.
 
 The mean, mean frequency, & standard deviation of each calculation were then averaged for that particular Activity & SubjectID.
 
-* 70 fBodyAccMag-mean()
-* 71 fBodyAccMag-std()
-* 72 fBodyAccMag-meanFreq()
+* 70 fBodyAccMag-mean() numeric
+* 71 fBodyAccMag-std() numeric
+* 72 fBodyAccMag-meanFreq() numeric
 
 ### fBodyBodyAccJerkMag
 fBodyBodyAccJerkMag is the result of applying a Fast Fourier Transform (FFT) to the tBodyAccJerkMag calculation.
 
 The mean, mean frequency, & standard deviation of each calculation were then averaged for that particular Activity & SubjectID.
 
-* 73 fBodyBodyAccJerkMag-mean()
-* 74 fBodyBodyAccJerkMag-std()
-* 75 fBodyBodyAccJerkMag-meanFreq()
+* 73 fBodyBodyAccJerkMag-mean() numeric
+* 74 fBodyBodyAccJerkMag-std() numeric
+* 75 fBodyBodyAccJerkMag-meanFreq() numeric
 
 ### fBodyBodyGyroMag
 fBodyBodyGyroMag is the result of applying a Fast Fourier Transform (FFT) to the tBodyGyroMag calculation.
 
 The mean, mean frequency, & standard deviation of each calculation were then averaged for that particular Activity & SubjectID.
 
-* 76 fBodyBodyGyroMag-mean()
-* 77 fBodyBodyGyroMag-std()
-* 78 fBodyBodyGyroMag-meanFreq()
+* 76 fBodyBodyGyroMag-mean() numeric
+* 77 fBodyBodyGyroMag-std() numeric
+* 78 fBodyBodyGyroMag-meanFreq() numeric
 
 ### fBodyBodyGyroJerkMag
 fBodyBodyGyroJerkMag is the result of applying a Fast Fourier Transform (FFT) to the tBodyGyroJerkMag calculation.
 
 The mean, mean frequency, & standard deviation of each calculation were then averaged for that particular Activity & SubjectID.
 
-* 79 fBodyBodyGyroJerkMag-mean()
-* 80 fBodyBodyGyroJerkMag-std()
-* 81 fBodyBodyGyroJerkMag-meanFreq()
+* 79 fBodyBodyGyroJerkMag-mean() numeric
+* 80 fBodyBodyGyroJerkMag-std() numeric
+* 81 fBodyBodyGyroJerkMag-meanFreq() numeric
