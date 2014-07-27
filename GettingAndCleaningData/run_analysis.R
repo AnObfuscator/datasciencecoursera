@@ -34,4 +34,4 @@ mergedData <- applyActivityNames(mergedData, activityNames)
 
 avgsByActivityAndSubject <- calculateAveragesByActivityAndSubject(mergedData)
 
-write.table(avgsByActivityAndSubject, "AvgMeansAndStds.txt", sep=" ")
+write.table(avgsByActivityAndSubject, "AvgMeansAndStds.txt", row.names = FALSE, sep = " ")
