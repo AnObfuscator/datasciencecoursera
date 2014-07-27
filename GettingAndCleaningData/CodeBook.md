@@ -90,26 +90,50 @@ The means & standard deviations for each X, Y, and Z calculation were then avera
 * 32 tBodyGyroJerk-std()-Z
 
 ### tBodyAccMag
+tBodyAccMag is the magnitude of tBodyAcc-XYZ calculated using the Euclidian norm.
+
+The mean & standard deviation for each calculation were then averaged for that particular Activity & SubjectID.
+
 * 33 tBodyAccMag-mean()
 * 34 tBodyAccMag-std()
 
 ### tGravityAccMag
+tGravityAccMag is the magnitude of tGravityAcc-XYZ calculated using the Euclidian norm.
+
+The mean & standard deviation for each calculation were then averaged for that particular Activity & SubjectID.
+
 * 35 tGravityAccMag-mean()
 * 36 tGravityAccMag-std()
 
 ### tBodyAccJerkMag
+tBodyAccJerkMag is the magnitude of tBodyAccJerk-XYZ calculated using the Euclidian norm.
+
+The mean & standard deviation for each calculation were then averaged for that particular Activity & SubjectID.
+
 * 37 tBodyAccJerkMag-mean()
 * 38 tBodyAccJerkMag-std()
 
 ### tBodyGyroMag
+tBodyGyroMag is the magnitude of tBodyGyro-XYZ calculated using the Euclidian norm.
+
+The mean & standard deviation for each calculation were then averaged for that particular Activity & SubjectID.
+
 * 39 tBodyGyroMag-mean()
 * 40 tBodyGyroMag-std()
 
 ### tBodyGyroJerkMag
+tBodyGyroJerkMag is the magnitude of tBodyGyroJerk-XYZ calculated using the Euclidian norm.
+
+The mean & standard deviation for each calculation were then averaged for that particular Activity & SubjectID.
+
 * 41 tBodyGyroJerkMag-mean()
 * 42 tBodyGyroJerkMag-std()
 
 ### fBodyAcc
+fBodyAcc is the result of applying a Fast Fourier Transform (FFT) to the tBodyAcc X, Y, and Z axis components.
+
+The means, mean frequencies, & standard deviations of each calculation were then averaged for that particular Activity & SubjectID.
+
 * 43 fBodyAcc-mean()-X
 * 44 fBodyAcc-mean()-Y
 * 45 fBodyAcc-mean()-Z
@@ -121,6 +145,10 @@ The means & standard deviations for each X, Y, and Z calculation were then avera
 * 51 fBodyAcc-meanFreq()-Z
 
 ### fBodyAccJerk
+fBodyAccJerk is the result of applying a Fast Fourier Transform (FFT) to the tBodyAccJerk X, Y, and Z axis components.
+
+The means, mean frequencies, & standard deviations of each calculation were then averaged for that particular Activity & SubjectID.
+
 * 52 fBodyAccJerk-mean()-X
 * 53 fBodyAccJerk-mean()-Y
 * 54 fBodyAccJerk-mean()-Z
@@ -132,6 +160,10 @@ The means & standard deviations for each X, Y, and Z calculation were then avera
 * 60 fBodyAccJerk-meanFreq()-Z
 
 ### fBodyGyro
+fBodyGyro is the result of applying a Fast Fourier Transform (FFT) to the tBodyGyro X, Y, and Z axis components.
+
+The means, mean frequencies, & standard deviations of each calculation were then averaged for that particular Activity & SubjectID.
+
 * 61 fBodyGyro-mean()-X
 * 62 fBodyGyro-mean()-Y
 * 63 fBodyGyro-mean()-Z
@@ -143,21 +175,37 @@ The means & standard deviations for each X, Y, and Z calculation were then avera
 * 69 fBodyGyro-meanFreq()-Z
 
 ### fBodyAccMag
+fBodyAccMag is the result of applying a Fast Fourier Transform (FFT) to the tBodyAccMag calculation.
+
+The mean, mean frequency, & standard deviation of each calculation were then averaged for that particular Activity & SubjectID.
+
 * 70 fBodyAccMag-mean()
 * 71 fBodyAccMag-std()
 * 72 fBodyAccMag-meanFreq()
 
 ### fBodyBodyAccJerkMag
+fBodyBodyAccJerkMag is the result of applying a Fast Fourier Transform (FFT) to the tBodyAccJerkMag calculation.
+
+The mean, mean frequency, & standard deviation of each calculation were then averaged for that particular Activity & SubjectID.
+
 * 73 fBodyBodyAccJerkMag-mean()
 * 74 fBodyBodyAccJerkMag-std()
 * 75 fBodyBodyAccJerkMag-meanFreq()
 
 ### fBodyBodyGyroMag
+fBodyBodyGyroMag is the result of applying a Fast Fourier Transform (FFT) to the tBodyGyroMag calculation.
+
+The mean, mean frequency, & standard deviation of each calculation were then averaged for that particular Activity & SubjectID.
+
 * 76 fBodyBodyGyroMag-mean()
 * 77 fBodyBodyGyroMag-std()
 * 78 fBodyBodyGyroMag-meanFreq()
 
 ### fBodyBodyGyroJerkMag
+fBodyBodyGyroJerkMag is the result of applying a Fast Fourier Transform (FFT) to the tBodyGyroJerkMag calculation.
+
+The mean, mean frequency, & standard deviation of each calculation were then averaged for that particular Activity & SubjectID.
+
 * 79 fBodyBodyGyroJerkMag-mean()
 * 80 fBodyBodyGyroJerkMag-std()
 * 81 fBodyBodyGyroJerkMag-meanFreq()
