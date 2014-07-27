@@ -11,7 +11,13 @@ The rows are unique per Activity/SubjectId combination.
 
 Variable Names
 --------------------------------------------------------
-These are numbered by the column number in the outputted data set.
+The names of the variables are from the original data set, described in the README.md. This is intended to ease traceability and reproducability. These names are numbered by the column number in the outputted data set.
+
+For example:
+
+* X SomeName
+
+X is the column number, and SomeName is the variable name.
 
 ### Activity
 Activity is the activity performed by the subject.
