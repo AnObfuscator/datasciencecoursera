@@ -23,16 +23,16 @@ This repository contains the following files:
 
 Instructions
 --------------------------------------------------------
-1. Download the run_analysis.R and analysis_functions.R.
+1. Download the run_analysis.R and analysis_functions.R into the same directory.
 2. Set your R workspace to the same directory as the R source files.
-3. Download the dataset from here: [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+3. Download the dataset from here: [UCI HAR Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 4. Unzip the dataset into a directory named "UCI HAR Dataset" within same directory that contains the run_analysis.R script.
 5. Execute run_analysis.R with the following R command: 
 ```R
 source("run_analysis.R")
 ```
 
-This will output a dataset named "AvgMeansAndStds.txt" that contains a table with the average of means and standard deviations of various accelerometer measurements for each activity and each subject. 
+This will output a file named "AvgMeansAndStds.txt" that contains a table with the average of means and standard deviations of various accelerometer measurements for each activity and each subject. 
 
 System Information
 --------------------------------------------------------
