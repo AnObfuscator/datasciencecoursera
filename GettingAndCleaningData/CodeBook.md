@@ -78,7 +78,7 @@ The means & standard deviations of the measurements for each X, Y, and Z compone
 * 26 tBodyGyro-std()-Z numeric
 
 ### tBodyGyroJerk
-tBodyAccJerk is the derivative with respect to time (d/dt) of tBodyGyro.
+tBodyGyroJerk is the derivative with respect to time (d/dt) of tBodyGyro.
 
 The means & standard deviations for each X, Y, and Z calculation were then averaged for that particular Activity & SubjectID.
 
