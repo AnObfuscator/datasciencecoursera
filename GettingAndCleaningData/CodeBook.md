@@ -7,6 +7,8 @@ These are the descriptions of the columns in the data set outputted from run_ana
 
 The rows are unique per Activity/SubjectId combination.
 
+The measurements were normalized and bounded within [-1,1] in the original data set, so they are unitless.
+
 Variable Names
 --------------------------------------------------------
 The names of the variables are from the original data set, described in the README.md. This is intended to ease traceability and reproducability. These names are numbered by the column number in the outputted data set.
